@@ -17,7 +17,7 @@ from pyrogram import filters
 from SaitamaRobot import BOT_ID
 from SaitamaRobot.Chatbot.chatbotdb import add_chat, get_session, remove_chat
 from SaitamaRobot import arq
-from SaitamaRobot utils.pluginhelp import admins_only, edit_or_reply
+from SaitamaRobot.utils.pluginhelp import admins_only, edit_or_reply
 from SaitamaRobot import pbot as eren
 
 translator = google_translator()
@@ -118,9 +118,9 @@ async def hmm(_, message):
     elif status == "EN" or status == "en" or status == "english":
         if not chat_id in en_chats:
             en_chats.append(chat_id)
-            await message.reply_text("English AI chat Enabled!")
+            await message.reply_text("English chat bot Enabled!")
             return
-        await message.reply_text("AI Chat Is Already Disabled.")
+        await message.reply_text("Chat Bot Is Already Disabled.")
         message.continue_propagation()
     else:
         await message.reply_text(
@@ -350,11 +350,11 @@ async def inuka(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    test = test.replace("daisy", "Aco")
-    test = test.replace("Daisy", "Aco")
+    test = test.replace("eren", "Aco")
+    test = test.replace("Eren", "Aco")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Daisy")
-    response = response.replace("aco", "Daisy")
+    response = response.replace("Aco", "Eren")
+    response = response.replace("aco", "eren")
 
     pro = response
     if not "en" in lan and not lan == "":
