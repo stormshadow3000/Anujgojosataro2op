@@ -57,3 +57,4 @@ cryptg
 cryptography
 python-arq
 aiogram
+aioredis
