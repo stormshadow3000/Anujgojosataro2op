@@ -10,7 +10,6 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 from redis import StrictRedis
 from Python_ARQ import ARQ
 import aiohttp
-
 from aiohttp import ClientSession
 
 StartTime = time.time()
