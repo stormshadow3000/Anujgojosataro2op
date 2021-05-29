@@ -88,6 +88,7 @@ if ENV:
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
     REDIS_URL = os.environ.get("REDIS_URL", None)
     ARQ_API = os.environ.get("ARQ_API", None)
+    BOT_ID = int(os.environ.get("BOT_ID", None)
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None)
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
