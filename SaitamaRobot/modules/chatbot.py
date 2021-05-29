@@ -1,11 +1,24 @@
 from pyrogram import filters
-
+import asyncio
+import aiohttp
+import emoji
+import requests
+import re
 from SaitamaRobot import (BOT_ID, DRAGONS, arq)
 from SaitamaRobot import pbot as eren               
 from SaitamaRobot.utils.errors import capture_err
 from SaitamaRobot.utils.pluginhelp import edit_or_reply
 from SaitamaRobot.utils.filter_groups import chatbot_group
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import Client, filters
+from google_trans_new import google_translator
+url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 
+translator = google_translator()
+
+
+def extract_emojis(s):
+    return "".join(c for c in s if c in emoji.UNICODE_EMOJI)
 
 active_chats_bot = []
 active_chats_ubot = []
