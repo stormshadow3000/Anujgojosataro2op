@@ -62,12 +62,8 @@ async def lunaQuery(query: str, user_id: int):
 
 
 @eren.on_message(
-    filters.text
-    & filters.reply
-    & ~filters.bot
-    & ~filters.via_bot
-    & ~filters.forwarded,
-    group=chatbot_group,
+   filters.text & filters.reply & ~filters.bot & ~filters.via_bot & ~filters.forwarded,
+    group=2,
 )
 @capture_err
 async def eren(client, message):
