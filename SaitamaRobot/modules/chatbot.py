@@ -245,7 +245,7 @@ async def redaura(client, message):
         print(e)
 
 
-@LYCIA.on_message(
+@eren.on_message(
     filters.regex("eren|EREN|Eren")
     & ~filters.bot
     & ~filters.via_bot
