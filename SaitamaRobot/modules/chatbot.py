@@ -74,4 +74,5 @@ async def chatbot_talk(_, message):
 
 __mod__name = "ChatBot"
 __help__ = """
-/chatbot [ON|OFF] To Enable Or Disable ChatBot In Your Chat.
+• /chatbot [ON|OFF] To Enable Or Disable ChatBot In Your Chat.
+"""
