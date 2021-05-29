@@ -56,3 +56,4 @@ aiohttp[speedups]
 cryptg
 cryptography
 python-arq
+aiogram
