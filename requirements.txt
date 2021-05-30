@@ -1,4 +1,4 @@
-aiohttp
+ 
 alphabet_detector
 beautifulsoup4
 bleach
@@ -58,3 +58,4 @@ python-arq
 aiogram
 aioredis
 odmantic
+aiohttp
