@@ -57,3 +57,4 @@ cryptography
 python-arq
 aiogram
 aioredis
+odmantic
