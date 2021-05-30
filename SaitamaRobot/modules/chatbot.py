@@ -87,7 +87,7 @@ async def hmm(client, message):
 )
 @admins_only
 async def hmm(_, message):
-    global daisy_chats
+    global eren_chats
     if len(message.command) != 2:
         await message.reply_text(
             "I only recognize `/chatbot on` and /chatbot `off only`"
@@ -118,7 +118,7 @@ async def hmm(_, message):
     elif status == "EN" or status == "en" or status == "english":
         if not chat_id in en_chats:
             en_chats.append(chat_id)
-            await message.reply_text("English chat bot Enabled!")
+            await message.reply_text("English Only chat bot Enabled!")
             return
         await message.reply_text("Chat Bot Is Already Disabled.")
         message.continue_propagation()
@@ -372,6 +372,7 @@ async def inuka(client, message):
 __help__ = """
  - /chatbot [ON/OFF]: Enables and disables ChatBot 
  - /chatbot EN : Enables English only ChatBot
+ *Powered by Brainshop.ai*
  
  
  
