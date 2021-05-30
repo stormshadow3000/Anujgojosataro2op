@@ -1,5 +1,4 @@
 aiohttp
-aiofiles
 alphabet_detector
 beautifulsoup4
 bleach
