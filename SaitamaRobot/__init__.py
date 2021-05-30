@@ -215,15 +215,6 @@ mongodb = MongoClient(MONGO_URI, MONGO_PORT)[MONGO_DB]
 motor = motor_asyncio.AsyncIOMotorClient(MONGO_URI, MONGO_PORT)
 db = motor[MONGO_DB]
 engine = AIOEngine(motor, MONGO_DB)
-
-try:
-
-    asyncio.get_event_loop().run_until_complete(motor.server_info())
-
-except ServerSelectionTimeoutError:
-
-    sys.exit(LOGGER.critical("Can't connect to mongodb! Exiting..."))
-
 print("[INFO]: INITIALZING AIOHTTP SESSION")
 aiohttpsession = ClientSession()
 # ARQ Client
