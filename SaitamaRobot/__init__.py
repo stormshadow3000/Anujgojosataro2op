@@ -88,7 +88,9 @@ if ENV:
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
     AI_API_KEY = os.environ.get("AI_API_KEY", None)
     WALL_API = os.environ.get("WALL_API", None)
-    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
+    MONGO_URI = os.environ.get("MONGO_DB_URI", None)
+    MONGO_DB = os.environ.get("MONGO_DB", None)
+    MONGO_PORT = os.environ.get("MONGO_PORT", None)
     REDIS_URL = os.environ.get("REDIS_URL", None)
     ARQ_API = os.environ.get("ARQ_API", None)
     BOT_ID = int(os.environ.get("BOT_ID", None))
@@ -208,8 +210,21 @@ updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("eren", API_ID, API_HASH)
 dispatcher = updater.dispatcher
 pbot = Client("ErenPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
-mongo_client = MongoClient(MONGO_DB_URI)
-db = mongo_client.SaitamaRobot
+mongodb = MongoClient(MONGO_URI, MONGO_PORT)[MONGO_DB]
+
+motor = motor_asyncio.AsyncIOMotorClient(MONGO_URI, MONGO_PORT)
+
+db = motor[MONGO_DB]
+
+engine = AIOEngine(motor, MONGO_DB)
+try:
+
+    asyncio.get_event_loop().run_until_complete(motor.server_info())
+
+except ServerSelectionTimeoutError:
+
+    sys.exit(LOGGER.critical("Can't connect to mongodb! Exiting..."))
+
 print("[INFO]: INITIALZING AIOHTTP SESSION")
 aiohttpsession = ClientSession()
 # ARQ Client
