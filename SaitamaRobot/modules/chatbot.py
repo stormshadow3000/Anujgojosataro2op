@@ -86,7 +86,7 @@ async def hmm(client, message):
     filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
-async def hmm(_, message):
+async def chatbot_status(_, message):
     global eren_chats
     if len(message.command) != 2:
         await message.reply_text(
@@ -137,7 +137,7 @@ async def hmm(_, message):
     & ~filters.forwarded,
     group=2,
 )
-async def hmm(client, message):
+async def chatbot_function(client, message):
     if not get_session(int(message.chat.id)):
         return
     if not message.reply_to_message:
@@ -233,7 +233,7 @@ async def hmm(client, message):
 @eren.on_message(
     filters.text & filters.private & ~filters.edited & filters.reply & ~filters.bot
 )
-async def inuka(client, message):
+async def sasuke(client, message):
     msg = message.text
     if msg.startswith("/") or msg.startswith("@"):
         message.continue_propagation()
@@ -305,7 +305,7 @@ async def inuka(client, message):
     & ~filters.channel
     & ~filters.edited
 )
-async def inuka(client, message):
+async def sasuke(client, message):
     msg = message.text
     if msg.startswith("/") or msg.startswith("@"):
         message.continue_propagation()
@@ -370,9 +370,11 @@ async def inuka(client, message):
 
 
 __help__ = """
- - /chatbot [ON/OFF]: Enables and disables ChatBot 
- - /chatbot EN : Enables English only ChatBot
- *Powered by Brainshop.ai*
+ Chatbot utilizes the Branshop's API and allows Eren to talk and provides a more interactive group chat experience.
+ *Admins Only Commands*:
+ • `/chatbot [ON/OFF]`: Enables and disables Chatbot mode in the chat.
+ • `/chatbot EN` : Enables English only Chatbot mode in the chat.
+ *Powered by Brainshop* (brainshop.ai)
  
  
  
