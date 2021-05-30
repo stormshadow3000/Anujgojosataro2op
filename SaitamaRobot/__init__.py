@@ -90,7 +90,7 @@ if ENV:
     WALL_API = os.environ.get("WALL_API", None)
     MONGO_URI = os.environ.get("MONGO_DB_URI", None)
     MONGO_DB = os.environ.get("MONGO_DB", None)
-    MONGO_PORT = os.environ.get("MONGO_PORT", None)
+    MONGO_PORT = "27017"
     REDIS_URL = os.environ.get("REDIS_URL", None)
     ARQ_API = os.environ.get("ARQ_API", None)
     BOT_ID = int(os.environ.get("BOT_ID", None))
