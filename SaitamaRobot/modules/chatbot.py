@@ -124,7 +124,7 @@ async def hmm(_, message):
         message.continue_propagation()
     else:
         await message.reply_text(
-            "I only recognize `/chatbot on` and /chatbot `off only`"
+            "I only recognize `/chatbot on` and `/chatbot off` only"
         )
 
 
