@@ -14,6 +14,8 @@ from redis import StrictRedis
 from Python_ARQ import ARQ
 import aiohttp
 from aiohttp import ClientSession
+from SaitamaRobot.utils.conf import get_int_key, get_str_key
+
 
 StartTime = time.time()
 
@@ -90,7 +92,6 @@ if ENV:
     WALL_API = os.environ.get("WALL_API", None)
     MONGO_URI = os.environ.get("MONGO_DB_URI", None)
     MONGO_DB = os.environ.get("MONGO_DB", None)
-    
     REDIS_URL = os.environ.get("REDIS_URL", None)
     ARQ_API = os.environ.get("ARQ_API", None)
     BOT_ID = int(os.environ.get("BOT_ID", None))
@@ -99,7 +100,7 @@ if ENV:
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
     ARQ_API_URL =  "https://thearq.tech"
     ARQ_API_KEY = ARQ_API
-    MONGO_PORT = "27017"
+    MONGO_PORT = get_int_key("MONGO_PORT")
 
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
