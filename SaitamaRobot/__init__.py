@@ -211,12 +211,10 @@ telethn = TelegramClient("eren", API_ID, API_HASH)
 dispatcher = updater.dispatcher
 pbot = Client("ErenPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 mongodb = MongoClient(MONGO_URI, MONGO_PORT)[MONGO_DB]
-
 motor = motor_asyncio.AsyncIOMotorClient(MONGO_URI, MONGO_PORT)
-
 db = motor[MONGO_DB]
-
 engine = AIOEngine(motor, MONGO_DB)
+
 try:
 
     asyncio.get_event_loop().run_until_complete(motor.server_info())
