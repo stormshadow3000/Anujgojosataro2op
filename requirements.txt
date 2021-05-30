@@ -54,4 +54,4 @@ lyricsgenius
 envparse
 cryptg
 cryptography
-aiogram
+
