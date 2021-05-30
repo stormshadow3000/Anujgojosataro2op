@@ -14,8 +14,6 @@ from redis import StrictRedis
 from Python_ARQ import ARQ
 import aiohttp
 from aiohttp import ClientSession
-from SaitamaRobot.utils.conf import get_int_key, get_str_key
-
 
 
 StartTime = time.time()
@@ -213,7 +211,7 @@ telethn = TelegramClient("eren", API_ID, API_HASH)
 dispatcher = updater.dispatcher
 pbot = Client("ErenPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 mongodb = MongoClient(MONGO_URI, MONGO_PORT)[MONGO_DB]
-motor = motor_asyncio.AsyncIOMotorClient(MONGO_URI, MONGO_PORT)
+motor = motor_asyncio.AsyncIOMotorClient(MONGO_URI)
 db = motor[MONGO_DB]
 engine = AIOEngine(motor, MONGO_DB)
 print("[INFO]: INITIALZING AIOHTTP SESSION")
