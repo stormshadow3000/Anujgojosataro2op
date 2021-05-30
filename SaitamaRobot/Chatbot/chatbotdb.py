@@ -1,28 +1,28 @@
-from SaitamaRobot import db 
+from SaitamaRobot import mongodb as db_x
 
-chatbotdb = db.chatbot
+lydia = db_x["CHATBOT"]
 
 
 def add_chat(chat_id):
-    stark = chatbotdb.find_one({"chat_id": chat_id})
+    stark = lydia.find_one({"chat_id": chat_id})
     if stark:
         return False
     else:
-        chatbotdb.insert_one({"chat_id": chat_id})
+        lydia.insert_one({"chat_id": chat_id})
         return True
 
 
 def remove_chat(chat_id):
-    stark = chatbotdb.find_one({"chat_id": chat_id})
+    stark = lydia.find_one({"chat_id": chat_id})
     if not stark:
         return False
     else:
-        chatbotdb.delete_one({"chat_id": chat_id})
+        lydia.delete_one({"chat_id": chat_id})
         return True
 
 
 def get_all_chats():
-    r = list(chatbotdb.find())
+    r = list(lydia.find())
     if r:
         return r
     else:
@@ -30,7 +30,7 @@ def get_all_chats():
 
 
 def get_session(chat_id):
-    stark = chatbotdb.find_one({"chat_id": chat_id})
+    stark = lydia.find_one({"chat_id": chat_id})
     if not stark:
         return False
     else:
