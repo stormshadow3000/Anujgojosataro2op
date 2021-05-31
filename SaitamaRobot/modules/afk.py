@@ -54,7 +54,7 @@ def no_longer_afk(update, context):
     REDIS.delete(f'afk_time_{user.id}')
     res = end_afk(user.id)
     if res:
-        if message.new_chat_members:  #dont say msg
+        if message.new_chat_members:  # dont say msg
             return
         firstname = update.effective_user.first_name
         try:
@@ -77,6 +77,7 @@ def no_longer_afk(update, context):
             )
         except:
             return
+
 
 
 @run_async
