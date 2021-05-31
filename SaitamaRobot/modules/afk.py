@@ -75,8 +75,9 @@ def no_longer_afk(update, context):
             update.effective_message.reply_text(
                 chosen_option.format(firstname),
             )
-        except:
+        except Exception:
             return
+            
 
 
 
