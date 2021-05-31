@@ -8,7 +8,7 @@ from telegram.ext import Filters, MessageHandler, run_async
 
 from SaitamaRobot import dispatcher
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
-from SaitamaRobot.modules.sql.afk_redis import start_afk, end_afk, is_user_afk, afk_reason
+from SaitamaRobot.modules.redis.afk_redis import start_afk, end_afk, is_user_afk, afk_reason
 from SaitamaRobot import REDIS
 from SaitamaRobot.modules.users import get_user_id
 
@@ -148,14 +148,6 @@ def __gdpr__(user_id):
 
 
 
-__mod_name__ = "AFK"
-
-
-__help__ = """
-  - /afk <reason>: Mark yourself as AFK.
-  - brb <reason>: Same as the afk command, but not a command.\n
-  When marked as AFK, any mentions will be replied to with a message stating that you're not available!
-"""
 
 
 AFK_HANDLER = DisableAbleCommandHandler("afk", afk)
