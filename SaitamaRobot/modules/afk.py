@@ -58,9 +58,24 @@ def no_longer_afk(update, context):
             return
         firstname = update.effective_user.first_name
         try:
-            message.reply_text(
-                "{} is no longer AFK!\nTime you were AFK for: {}".format(firstname, end_afk_time))
-        except Exception:
+            options = [
+                "{} Is wasting his time in the chat!",
+                "The Dead {} Came Back From His Grave!",
+                "We thought we lost you {}",
+                "Welcome Back {} now pay $100 to Get freedom or get banned!",
+                "{} Good job waking up now get ready for your classes!",
+                "Hey {}! Why weren't you online for such a long time?",
+                "{} why did you came back?",
+                "{} Is now back online!",
+                "OwO, Welcome back {}",
+                "Welcome to hell again {}",
+                "Mission failed successfully {}",
+            ]
+            chosen_option = random.choice(options)
+            update.effective_message.reply_text(
+                chosen_option.format(firstname),
+            )
+        except:
             return
 
 
