@@ -22,7 +22,7 @@ psutil
 psycopg2-binary
 pynewtonmath
 pyrate-limiter
-python-telegram-bot==12.8
+python-telegram-bot==13.5
 regex
 requests
 spamwatch
@@ -59,3 +59,4 @@ aiogram
 aioredis
 odmantic
 aiohttp
+pykeyboard
