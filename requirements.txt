@@ -58,3 +58,4 @@ aioredis
 odmantic
 aiohttp
 pykeyboard
+gogoanimeapi
