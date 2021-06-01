@@ -141,12 +141,12 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         if reason == "none":
             if int(userc_id) == int(user_id):
                 return
-            res = "{} is Dead!\nLast Liveliness: `{}` ago".format(fst_name, since_afk)
+            res = "{} is Dead!\nLast Liveliness: {} ago.".format(fst_name, since_afk)
             update.effective_message.reply_text(res)
         else:
             if int(userc_id) == int(user_id):
                 return
-            res = "{} is afk!\nReason: `{}`\nLast seen: `{}` ago".format(fst_name, reason, since_afk)
+            res = "{} is afk!\nReason: {}\nLast seen: {} ago.".format(fst_name, reason, since_afk)
             update.effective_message.reply_text(res)
 
 
@@ -156,7 +156,7 @@ def __user_info__(user_id):
     if is_afk:
         since_afk = get_readable_time((time.time() - float(REDIS.get(f'afk_time_{user_id}'))))
         text = "<i>This user is currently afk (away from keyboard).</i>"
-        text += f"\n<i>Last Seen: {since_afk}</i>"
+        text += f"\n<i>Last Seen: {since_afk} ago.</i>"
        
     else:
         text = "<i>This user currently isn't afk (not away from keyboard).</i>"
