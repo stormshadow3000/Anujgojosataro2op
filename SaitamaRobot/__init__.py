@@ -54,7 +54,7 @@ if ENV:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
     try:
-        DEMONS = set(int(x) for x in os.environ.get("ROAYLS", "").split())
+        DEMONS = set(int(x) for x in os.environ.get("ROYALS", "").split())
     except ValueError:
         raise Exception("Your support users list does not contain valid integers.")
 
@@ -129,7 +129,7 @@ else:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
     try:
-        DEMONS = set(int(x) for x in Config.ROAYLS or [])
+        DEMONS = set(int(x) for x in Config.ROYALS or [])
     except ValueError:
         raise Exception("Your support users list does not contain valid integers.")
 
