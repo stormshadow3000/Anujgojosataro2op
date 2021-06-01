@@ -74,10 +74,10 @@
          "required": true,
          "value": "-xyz"
       },
-      "DEV_USERS": {
+      "ACKERMANS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Eren support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1755728237"
+         "value": "1755728237 1352499461"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -89,25 +89,25 @@
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
          "value": "True"
       },
-      "DRAGONS": {
+      "TITANSHIFTERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
          "value": " "
       },
-      "DEMONS": {
+      "ROYALS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
          "value": ""
       }, 
-      "TIGERS": {
+      "SCOUTS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
          "value": ""
       },
-      "WOLVES": {
+      "GARRISONS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1606221784"
+         "value": " "
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -185,17 +185,17 @@
          "description": "Telethon String Session, create it from https://repl.it/@SpEcHiDe/GenerateStringSession .",
          "required": true,
          "value": ""
+       },
+       "MONGO_PORT": {
+         "description": "Mongodb port, dont change!",
+         "required": true,
+         "value": "27017"
+       },
+       "MONGO_DB" :{
+         "description": "Dont Change, if you change your bot will not work",
+         "required": true,
+         "value": "SaitamaRobot"
       }
       
    }
 } 
-
-     
-
-      
-   
-
-
- 
-
-
