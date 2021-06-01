@@ -100,7 +100,7 @@
          "value": ""
       }, 
       "SCOUTS": {
-         "description": "A space separated list of user IDs who you wanna assign as tiger users.",
+         "description": "A space separated list of user IDs who you wanna assign as scout users.",
          "required": false,
          "value": ""
       },
