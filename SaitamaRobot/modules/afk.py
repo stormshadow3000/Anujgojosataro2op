@@ -1,7 +1,6 @@
 from typing import Optional
 import time
 import random
-import html
 from datetime import datetime
 import humanize
 
@@ -142,12 +141,12 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         if reason == "none":
             if int(userc_id) == int(user_id):
                 return
-            res = "{} is Dead!\nLast Liveliness: {} seconds ago".format(fst_name, since_afk)
+            res = "{} is Dead!\nLast Liveliness: {} ago".format(fst_name, since_afk)
             update.effective_message.reply_text(res)
         else:
             if int(userc_id) == int(user_id):
                 return
-            res = "{} is afk!\nReason:{}\nLast seen: {} seconds ago".format(fst_name, reason, since_afk)
+            res = "{} is afk!\nReason: {}\nLast seen: {} ago".format(fst_name, reason, since_afk)
             update.effective_message.reply_text(res)
 
 
@@ -160,15 +159,12 @@ def __user_info__(user_id):
         text += f"\n<i>Last Seen: {since_afk}</i>"
        
     else:
-        text = "<i>This user is currently isn't afk (away from keyboard).</i>"
+        text = "<i>This user currently isn't afk (not away from keyboard).</i>"
     return text
 
 
 def __gdpr__(user_id):
     end_afk(user_id)
-
-
-
 
 
 AFK_HANDLER = DisableAbleCommandHandler("afk", afk)
