@@ -196,10 +196,11 @@
          "required": true,
          "value": "SaitamaRobot"
        },
-       "ARQ_API" :{
-         "description": "Arq Api get yours from @arqrobot"
-         "required": true,
-         "value": " "
+    "ARQ_API": {
+      "description": "Get this from @ARQRobot",
+      "value": "",
+      "required": true
+      
       }
       
    }
