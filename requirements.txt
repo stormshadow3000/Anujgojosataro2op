@@ -2,7 +2,6 @@ alphabet_detector
 beautifulsoup4
 bleach
 cachetools
-coffeehouse
 CurrencyConverter
 emoji
 feedparser
@@ -58,4 +57,3 @@ aioredis
 odmantic
 aiohttp
 pykeyboard
-gogoanimeapi
