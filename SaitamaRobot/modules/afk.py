@@ -72,7 +72,7 @@ def no_longer_afk(update, context):
                 "{} Is now back online!",
                 "OwO, Welcome back {}",
                 "Welcome to hell again {}",
-                "Whats poppin? {}",
+                "Whats poppin {}?",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(
