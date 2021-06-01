@@ -195,6 +195,11 @@
          "description": "Dont Change, if you change your bot will not work",
          "required": true,
          "value": "SaitamaRobot"
+       },
+       "ARQ_API" :{
+         "description": Arq Api get yours from @arqrobot
+         "required": true,
+         "value": " "
       }
       
    }
