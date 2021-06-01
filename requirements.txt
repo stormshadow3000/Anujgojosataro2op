@@ -1,4 +1,3 @@
- 
 alphabet_detector
 beautifulsoup4
 bleach
@@ -55,7 +54,6 @@ envparse
 cryptg
 cryptography
 python-arq
-aiogram
 aioredis
 odmantic
 aiohttp
