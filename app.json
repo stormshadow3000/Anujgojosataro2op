@@ -198,7 +198,7 @@
        },
        "ARQ_API" :{
          "description": "Arq Api get yours from @arqrobot"
-         "required": true,
+         "required":true,
          "value": ""
       }
       
