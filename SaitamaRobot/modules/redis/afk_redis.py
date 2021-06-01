@@ -21,4 +21,4 @@ def end_afk(userid):
 
 # Helpers
 def strb(redis_string):
-    return str(redis_string
+    return str(redis_string)
