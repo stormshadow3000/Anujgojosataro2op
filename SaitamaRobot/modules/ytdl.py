@@ -26,7 +26,7 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton
 
-from SaitamaRobot import app, arq
+from SaitamaRobot import pbot, arq
 from SaitamaRobot.utils.errors import capture_err
 from SaitamaRobot.utils.formatter import convert_seconds_to_minutes as timeFormat
 from SaitamaRobot.utils.functions import downloader
@@ -36,7 +36,7 @@ from SaitamaRobot.utils.functions import downloader
 VIDEO_DATA = {}
 
 
-@app.on_message(filters.command("ytdl"))
+@pbot.on_message(filters.command("ytdl"))
 @capture_err
 async def ytdl_func(_, message):
     if len(message.command) != 2:
