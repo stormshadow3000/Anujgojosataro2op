@@ -40,7 +40,7 @@ VIDEO_DATA = {}
 @capture_err
 async def ytdl_func(_, message):
     if len(message.command) != 2:
-        return await message.reply_text("**Usage:**/ytdl [VIDEO_LINK]")
+        return await message.reply_text("please do like this `/ytdl (VIDEO_LINK)`")
     m = await message.reply_text("Processing")
     url = message.text.split(None, 1)[1]
     results = await arq.ytdl(url)
@@ -140,5 +140,5 @@ async def ytdlCallback(_, cq):
         
 __mod_name__ = "YoutubeDL"
 
-__help__ = "/ytdl [VIDEO_LINK] - Download a youtube video."
+__help__ = "/ytdl [VIDEO_LINK] - Download an youtube video."
 
