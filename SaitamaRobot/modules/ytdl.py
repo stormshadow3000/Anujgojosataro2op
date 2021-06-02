@@ -83,7 +83,7 @@ async def ytdl_func(_, message):
     await m.delete()
 
 
-@app.on_callback_query(filters.regex(r"^ytdl"))
+@pbot.on_callback_query(filters.regex(r"^ytdl"))
 async def ytdlCallback(_, cq):
     await cq.message.edit("Downloading")
     data_ = cq.data.split()[1]
