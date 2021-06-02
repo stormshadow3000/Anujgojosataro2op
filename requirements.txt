@@ -57,3 +57,5 @@ aioredis
 odmantic
 aiohttp
 pykeyboard
+aiofiles
+carbonnow
