@@ -26,13 +26,11 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton
 
-from wbb import app, arq
-from wbb.core.decorators.errors import capture_err
-from wbb.utils.formatter import convert_seconds_to_minutes as timeFormat
-from wbb.utils.functions import downloader
+from SaitamaRobot import app, arq
+from SaitamaRobot.utils.errors import capture_err
+from SaitamaRobot.utils.formatter import convert_seconds_to_minutes as timeFormat
+from SaitamaRobot.utils.functions import downloader
 
-__MODULE__ = "YoutubeDL"
-__HELP__ = "/ytdl [VIDEO_LINK] - Download a youtube video."
 
 
 VIDEO_DATA = {}
@@ -135,3 +133,12 @@ async def ytdlCallback(_, cq):
         print(e)
         del VIDEO_DATA[data_]
         await cq.message.delete()
+
+
+
+
+        
+__mod_name__ = "YoutubeDL"
+
+__help__ = "/ytdl [VIDEO_LINK] - Download a youtube video."
+
