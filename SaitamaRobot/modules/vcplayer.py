@@ -20,7 +20,7 @@ __mod_name__ = "VC PLAYER"
 __help__ = """
           》EREN VC PLAYER《
             
-Eren Jaeger can also play music in your group's voice chat
+I can now also play music in your group's voice chat
  
 Assistant username:- @FoundingTitanVCRobot
  
@@ -32,7 +32,7 @@ Assistant username:- @FoundingTitanVCRobot
  Commands:
  
 • Song Playing 🎶
-  `/play`: Play song using youtube music
+  `/play` <songname>: Play song using youtube music
   `/play` <yt url> : Play the given yt url
   `/dplay`: Play song via deezer
   `/splay`: Play song via jio saavn
@@ -45,6 +45,7 @@ Assistant username:- @FoundingTitanVCRobot
   `/end`: Stops media playback
   `/current`: Shows the current Playing track
   `/playlist`: Shows playlist
+
 • More tools 📲
   `/admincache`: Updates admin info of your group. Try if bot isn't recognize admin
   `/userbotjoin`: Invite @FoundingTitanVCRobot to your chat

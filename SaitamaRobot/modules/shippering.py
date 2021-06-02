@@ -5,10 +5,10 @@ from pyrogram import filters
 
 from SaitamaRobot import pbot as app
 from SaitamaRobot.utils.errors import capture_err
-from SaitamaRobot.utils.dbfunctions import get_couple, save_couple
+from SaitamaRobot.modules.mongo.couples_mongo import get_couple, save_couple
 
 __mod_name__ = "Shippering"
-__help__ = "/couples - To Choose Couple Of The Day"
+__help__ = "`/couples` - To Choose Couple Of The Day"
 
 
 # Date and time
