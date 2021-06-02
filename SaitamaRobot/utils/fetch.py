@@ -1,4 +1,4 @@
-from wbb import aiohttpsession
+from SaitamaRobot import aiohttpsession
 
 headers = {
     "Accept": "application/json",
