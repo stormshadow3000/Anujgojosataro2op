@@ -57,3 +57,4 @@ aioredis
 odmantic
 aiohttp
 pykeyboard
+aiofiles
