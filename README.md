@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/c60550c845bbeb04ef2f7.jpg">
 </p>
 
-# FoundingTitanRobot
+# GojoSataro_Robot
 
 <p align="center">
 <a href="https://app.codacy.com/gh/sasukeuchiha912/FoundingTitanRobot?utm_source=github.com&utm_medium=referral&utm_content=sasukeuchiha912/FoundingTitanRobot&utm_campaign=Badge_Grade_Settings" alt="Codacy Badge">
