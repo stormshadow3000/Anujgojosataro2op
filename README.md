@@ -4,7 +4,29 @@
 
 # FoundingTitanRobot
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/accaa60f7bf74ec7b6271f5b04a60fc9)](https://app.codacy.com/gh/sasukeuchiha912/FoundingTitanRobot?utm_source=github.com&utm_medium=referral&utm_content=sasukeuchiha912/FoundingTitanRobot&utm_campaign=Badge_Grade_Settings)
+<p align="center">
+<a href="https://app.codacy.com/gh/sasukeuchiha912/FoundingTitanRobot?utm_source=github.com&utm_medium=referral&utm_content=sasukeuchiha912/FoundingTitanRobot&utm_campaign=Badge_Grade_Settings" alt="Codacy Badge">
+<img src="https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51" /> </a>
+<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="Libraries.io dependency status for GitHub repo"> <img src="https://img.shields.io/librariesio/github/sasukeuchiha912/FoundingTitanRobot" /> </a>
+<a href="http://hits.dwyl.com/sasukeuchiha912/FoundingTitanRobot" alt="HitCount"> <img src="http://hits.dwyl.com/animekaizoku/saitamarobot.svg" /> </a>
+</p>
+<p align="center">
+<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/sasukeuchiha912/FoundingTitanRobot?style=flat&logo=github&color=success" /> </a>
+<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub commit activity"> <img src="https://img.shields.io/github/commit-activity/m/sasukeuchiha912/FoundingTitanRobot" /> </a>
+<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/sasukeuchiha912/FoundingTitanRobot?label=Forks&logo=github" /> </a>
+<p align="center">
+<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub release (latest by date including pre-releases)"> <img src="https://img.shields.io/github/v/release/animekaizoku/saitamarobot?include_prereleases?style=flat&logo=github" /> </a>
+<a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat&logo=python&color=blue" /> </a>
+<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="Docker!"> <img src="https://aleen42.github.io/badges/src/docker.svg" /> </a>
+<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/animekaizoku/saitamarobot" /> </a>
+<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot/blob/master/LICENSE" alt="GPLv3 license"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /> </a>
+</p>
+<p align="center">
+<a href="https://t.me/FoundingTitanupdates" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+<a href="" alt=<"https://github.com/sasukeuchiha912"> <img src="https://img.shields.io/badge/Built%20by-Sasuke-blue" /> </a>
+<a href="https://github.com/sasukeuchiha/FoundingTitanRobot/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" /> </a>
+<a href="https://makeapullrequest.com" alt="PRs Welcome"> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" /> </a>
+</p>
 
 <p align="center">
  " The bot is based on Attack on Titan Anime ”  
@@ -18,6 +40,7 @@ Eren is a simple bot for making your group management easier and cool.
 * Bot Link:  <a href="http://t.me/FoundingTitanRobot" alt="FoundingtitanRobot"> <img src="https://img.shields.io/badge/-FoundingTitanRobot-red" /> </a>
 * Update Channel: <a  href="https://t.me/foundingtitanupdates/" alt="foundingtitanupdates"> <img src="https://img.shields.io/badge/-Update%20channel-lightgrey" /> </a>
 * Support Group : <a href="https://t.me/foundingtitansupport/" alt="foundingtitansupport"> <img src="https://img.shields.io/badge/!-Support%20Group-blue" /> </a>
+* Should you be forking this repo then do not forget to star it - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/sasukeuchiha912/FoundingTitanRobot?color=white&label=%F0%9F%8C%9F%20star">
 
 ## Credits 
 * Goes To Sawada And All Other SaitamaRobot Helpers
