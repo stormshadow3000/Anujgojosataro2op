@@ -29,15 +29,15 @@
 <p align="center">
  " The bot is based on Jujutsu Kaisen Anime”  
 </p>
-
+https://git.heroku.com/gojosataro2op.git
 
 
 
 Gojō is a powerful bot for making your group management easier and cool.
 
-* Bot Link:  <a href="https://t.me/gojo_support" alt="GojoSataro_Robot"> <img src="https://img.shields.io/badge/-FoundingTitanRobot-red" /> </a>
+* Bot Link:  <a href="https://t.me/GojoSataro_Robot" alt="GojoSataro_Robot"> <img src="https://img.shields.io/badge/-FoundingTitanRobot-red" /> </a>
 * Update Channel: <a  href="https://t.me/foundingtitanupdates/" alt="foundingtitanupdates"> <img src="https://img.shields.io/badge/-Update%20channel-lightgrey" /> </a>
-* Support Group : <a href="https://t.me/foundingtitansupport/" alt="foundingtitansupport"> <img src="https://img.shields.io/badge/!-Support%20Group-blue" /> </a>
+* Support Group : <a href="https://t.me/gojo_support/" alt="foundingtitansupport"> <img src="https://img.shields.io/badge/!-Support%20Group-blue" /> </a>
 * Should you be forking this repo then do not forget to star it - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/sasukeuchiha912/FoundingTitanRobot?color=white&label=%F0%9F%8C%9F%20star">
 
 ## Credits 
