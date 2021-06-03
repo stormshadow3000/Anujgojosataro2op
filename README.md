@@ -20,7 +20,7 @@
 <a href="https://github.com/sasukeuchiha912/FoundingTitanRobot/blob/master/LICENSE" alt="GPLv3 license"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /> </a>
 </p>
 <p align="center">
-<a href="https://t.me/FoundingTitanupdates" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+<a href="https://t.me/GojoSataro_updates" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 <a href="" alt=<"https://github.com/sasukeuchiha912"> <img src="https://img.shields.io/badge/Built%20by-Sasuke-blue" /> </a>
 <a href="https://github.com/sasukeuchiha/FoundingTitanRobot/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" /> </a>
 <a href="https://makeapullrequest.com" alt="PRs Welcome"> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" /> </a>
@@ -36,8 +36,8 @@ https://git.heroku.com/gojosataro2op.git
 Gojō is a powerful bot for making your group management easier and cool.
 
 * Bot Link:  <a href="https://t.me/GojoSataro_Robot" alt="GojoSataro_Robot"> <img src="https://img.shields.io/badge/-FoundingTitanRobot-red" /> </a>
-* Update Channel: <a  href="https://t.me/foundingtitanupdates/" alt="foundingtitanupdates"> <img src="https://img.shields.io/badge/-Update%20channel-lightgrey" /> </a>
-* Support Group : <a href="https://t.me/gojo_support/" alt="foundingtitansupport"> <img src="https://img.shields.io/badge/!-Support%20Group-blue" /> </a>
+* Update Channel: <a  href="https://t.me/GojoSataro_update/" alt="GojoSataro_update"> <img src="https://img.shields.io/badge/-Update%20channel-lightgrey" /> </a>
+* Support Group : <a href="https://t.me/GojoSataro_support/" alt="GojoSataro_support"> <img src="https://img.shields.io/badge/!-Support%20Group-blue" /> </a>
 * Should you be forking this repo then do not forget to star it - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/sasukeuchiha912/FoundingTitanRobot?color=white&label=%F0%9F%8C%9F%20star">
 
 ## Credits 
