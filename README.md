@@ -7,7 +7,6 @@
 <p align="center">
 <a href="https://app.codacy.com/gh/sasukeuchiha912/FoundingTitanRobot?utm_source=github.com&utm_medium=referral&utm_content=sasukeuchiha912/FoundingTitanRobot&utm_campaign=Badge_Grade_Settings" alt="Codacy Badge">
 <img src="https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51" /> </a>
-<a href="http://hits.dwyl.com/sasukeuchiha912/FoundingTitanRobot" alt="HitCount"> <img src="http://hits.dwyl.com/sasukeuchiha912/FoundingTitanRobot.svg" /> </a>
 </p>
 <p align="center">
 <a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/sasukeuchiha912/FoundingTitanRobot?style=flat&logo=github&color=success" /> </a>
