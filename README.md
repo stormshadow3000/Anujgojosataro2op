@@ -40,6 +40,7 @@ Eren is a simple bot for making your group management easier and cool.
 * Bot Link:  <a href="http://t.me/FoundingTitanRobot" alt="FoundingtitanRobot"> <img src="https://img.shields.io/badge/-FoundingTitanRobot-red" /> </a>
 * Update Channel: <a  href="https://t.me/foundingtitanupdates/" alt="foundingtitanupdates"> <img src="https://img.shields.io/badge/-Update%20channel-lightgrey" /> </a>
 * Support Group : <a href="https://t.me/foundingtitansupport/" alt="foundingtitansupport"> <img src="https://img.shields.io/badge/!-Support%20Group-blue" /> </a>
+* Should you be forking this repo then do not forget to star it - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/sasukeuchiha912/FoundingTitanRobot?color=white&label=%F0%9F%8C%9F%20star">
 
 ## Credits 
 * Goes To Sawada And All Other SaitamaRobot Helpers
