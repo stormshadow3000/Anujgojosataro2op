@@ -27,13 +27,13 @@
 </p>
 
 <p align="center">
- " The bot is based on Attack on Titan Anime ”  
+ " The bot is based on Jujutsu Kaisen ”  
 </p>
 
 
 
 
-Eren is a simple bot for making your group management easier and cool.
+Gojō is a powerful bot for making your group management easier and cool.
 
 * Bot Link:  <a href="http://t.me/FoundingTitanRobot" alt="FoundingtitanRobot"> <img src="https://img.shields.io/badge/-FoundingTitanRobot-red" /> </a>
 * Update Channel: <a  href="https://t.me/foundingtitanupdates/" alt="foundingtitanupdates"> <img src="https://img.shields.io/badge/-Update%20channel-lightgrey" /> </a>
