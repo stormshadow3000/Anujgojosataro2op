@@ -14,10 +14,10 @@
 <a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub commit activity"> <img src="https://img.shields.io/github/commit-activity/m/sasukeuchiha912/FoundingTitanRobot" /> </a>
 <a href="https://github.com/sasukeuchiha912/FoundingTitanRobot/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/sasukeuchiha912/FoundingTitanRobot?label=Forks&logo=github" /> </a>
 <p align="center">
-<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub release (latest by date including pre-releases)"> <img src="https://img.shields.io/github/v/release/animekaizoku/saitamarobot?include_prereleases?style=flat&logo=github" /> </a>
+<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub release (latest by date including pre-releases)"> <img src="https://img.shields.io/github/v/release/sasukeuchiha912/FoundingTitanRobot?include_prereleases?style=flat&logo=github" /> </a>
 <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat&logo=python&color=blue" /> </a>
 <a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="Docker!"> <img src="https://aleen42.github.io/badges/src/docker.svg" /> </a>
-<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/animekaizoku/saitamarobot" /> </a>
+<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/sasukeuchiha912/FoundingTitanRobot" /> </a>
 <a href="https://github.com/sasukeuchiha912/FoundingTitanRobot/blob/master/LICENSE" alt="GPLv3 license"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /> </a>
 </p>
 <p align="center">
