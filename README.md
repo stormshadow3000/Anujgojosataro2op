@@ -6,13 +6,9 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/accaa60f7bf74ec7b6271f5b04a60fc9)](https://app.codacy.com/gh/sasukeuchiha912/FoundingTitanRobot?utm_source=github.com&utm_medium=referral&utm_content=sasukeuchiha912/FoundingTitanRobot&utm_campaign=Badge_Grade_Settings)
 ![Repository Size](https://img.shields.io/github/repo-size/sasukeuchiha912/FoundingTitanRobot?style=for-the-badge&logo=appveyor)
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Python Version](https://img.shields.io/badge/python-3.8-green?style=for-the-badge&logo=appveyor)&nbsp;
-
 ![Issues](https://img.shields.io/github/issues/sasukeuchiha912/FoundingTitanRobot?style=for-the-badge&logo=appveyor)&nbsp;
-
 ![Forks](https://img.shields.io/github/forks/sasukeuchiha912/FoundingTitanRobot?style=for-the-badge&logo=appveyor)&nbsp;
-
 ![Stars](https://img.shields.io/github/stars/sasukeuchiha912/FoundingTitanRobot?style=for-the-badge&logo=appveyor)
 
 
