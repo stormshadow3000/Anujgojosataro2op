@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/eeef5ddbe7f33338aa311.jpg">
+  <img src="https://telegra.ph/file/c60550c845bbeb04ef2f7.jpg">
 </p>
 
 # FoundingTitanRobot
@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
- " The bot is based on Jujutsu Kaisen ”  
+ " The bot is based on Jujutsu Kaisen Anime”  
 </p>
 
 
@@ -35,7 +35,7 @@
 
 Gojō is a powerful bot for making your group management easier and cool.
 
-* Bot Link:  <a href="http://t.me/FoundingTitanRobot" alt="FoundingtitanRobot"> <img src="https://img.shields.io/badge/-FoundingTitanRobot-red" /> </a>
+* Bot Link:  <a href="https://t.me/gojo_support" alt="GojoSataro_Robot"> <img src="https://img.shields.io/badge/-FoundingTitanRobot-red" /> </a>
 * Update Channel: <a  href="https://t.me/foundingtitanupdates/" alt="foundingtitanupdates"> <img src="https://img.shields.io/badge/-Update%20channel-lightgrey" /> </a>
 * Support Group : <a href="https://t.me/foundingtitansupport/" alt="foundingtitansupport"> <img src="https://img.shields.io/badge/!-Support%20Group-blue" /> </a>
 * Should you be forking this repo then do not forget to star it - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/sasukeuchiha912/FoundingTitanRobot?color=white&label=%F0%9F%8C%9F%20star">
