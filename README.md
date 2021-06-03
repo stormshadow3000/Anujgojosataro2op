@@ -12,7 +12,7 @@
 </p>
 <p align="center">
 <a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/sasukeuchiha912/FoundingTitanRobot?style=flat&logo=github&color=success" /> </a>
-<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub commit activity"> <img src="https://img.shields.io/github/commit-activity/m/sasukeuchiha912/FoundingTitanRobot" /> </a>
+<a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub commit activity"> <img src="https://img.shields.io/github/commit-activity/master/sasukeuchiha912/FoundingTitanRobot" /> </a>
 <a href="https://github.com/sasukeuchiha912/FoundingTitanRobot/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/sasukeuchiha912/FoundingTitanRobot?label=Forks&logo=github" /> </a>
 <p align="center">
 <a href="https://github.com/sasukeuchiha912/FoundingTitanRobot" alt="GitHub release (latest by date including pre-releases)"> <img src="https://img.shields.io/github/v/release/animekaizoku/saitamarobot?include_prereleases?style=flat&logo=github" /> </a>
