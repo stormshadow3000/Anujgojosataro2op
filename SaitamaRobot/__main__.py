@@ -73,12 +73,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
  Hi {}, I'm {}!
-I am an Attack on Titan anime themed group management bot,
+I am an Jujutsu kaisen anime themed group management bot,
 Built by weebs for weebs, I specialize in managing anime eccentric communities.
 """
 
 HELP_STRINGS = """
-Hey there, I'm Eren Jaeger!
+Hey there, I'm Gojo sataro!
 To make me functional, make sure that i have enough rights in your group.
 
 Helpful commands:
@@ -86,7 +86,7 @@ Helpful commands:
 - /help: Sends this message; I'll tell you more about myself!
 - /donate: Gives you info on how to support me and my creator.
 
-If you want to report bugs or have any questions on how to use me then feel free to reach out: @FoundingTitanSupport.
+If you want to report bugs or have any questions on how to use me then feel free to reach out: @GojoSataro_support.
 
 All commands can be used with the following: / !
 List of all the Modules:
@@ -95,7 +95,7 @@ List of all the Modules:
     "" if not ALLOW_EXCL else "📝All commands can either be used with / or !.",
 )
 
-EREN_IMG = "https://telegra.ph/file/06355bb1cd9d0c53d1171.jpg"
+EREN_IMG = "https://telegra.ph/file/62197266268cb21fdcc47.jpg"
 
 DONATE_STRING = """Plant a tree and give water to birds, that's your donation.."""
 
@@ -223,11 +223,11 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🗣️ Support",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/GojoSataro_support",
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates",
-                                url="https://t.me/foundingtitanupdates/",
+                                url="https://t.me/@GojoSataro_update/",
                             ),
                         ],
                         [
@@ -243,7 +243,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="⚙️ Help and Commands ",
-                                url="https://t.me/FoundingTitanRobot?start=help",
+                                url="https://t.me/GojoSataro_Robot?start=help",
                             ),
                         ],
                     ],
@@ -628,7 +628,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now online!](https://telegra.ph/file/69db8d7439cd6413bc3a7.mp4)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now online!](https://telegra.ph/file/d5757e87c1ae1ea91859d.mp4)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
