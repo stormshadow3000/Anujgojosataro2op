@@ -369,7 +369,7 @@ def get_help(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Help",
-                                url="t.me/GojoSataro_Robot?start=ghelp_{}".format(
+                                url="t.me/GojoSataro_Robot?start=help_{}".format(
                                     context.bot.username, module,
                                 ),
                             ),
