@@ -77,12 +77,12 @@ def addsudo(update: Update, context: CallbackContext) -> str:
         return ""
 
     if user_id in DEMONS:
-        rt += "Requested the Ackermans to promote a Royal Blood to Titan Shifter."
+        rt += "Requested the Jujutsu Tech to promote this user 2nd Grade to 1st Grade."
         data["supports"].remove(user_id)
         DEMONS.remove(user_id)
 
     if user_id in WOLVES:
-        rt += "Requested the Ackermans to promote a Garrison to Titan Shifter."
+        rt += "Requested the Jujutsu Tech to promote a Student to 1st Grade."
         data["whitelists"].remove(user_id)
         WOLVES.remove(user_id)
 
@@ -94,7 +94,7 @@ def addsudo(update: Update, context: CallbackContext) -> str:
 
     update.effective_message.reply_text(
         rt
-        + "\nSuccessfully set Disaster level of {} to Titan Shifter!".format(
+        + "\nSuccessfully set Curse of {} to 1st Grade!".format(
             user_member.first_name,
         ),
     )
@@ -135,16 +135,16 @@ def addsupport(
         data = json.load(infile)
 
     if user_id in DRAGONS:
-        rt += "Requested the Ackermans to demote this Titan Shifter to Royal Blood"
+        rt += "Requested the Jujutsu Tech to demote this 1st Grade to 2nd Grade"
         data["sudos"].remove(user_id)
         DRAGONS.remove(user_id)
 
     if user_id in DEMONS:
-        message.reply_text("This user is already a Royal Blood.")
+        message.reply_text("This user is already a 2nd Grade.")
         return ""
 
     if user_id in WOLVES:
-        rt += "Requested the Ackermans to promote this Garrison to Royal Blood"
+        rt += "Requested the Jujutsu Tech to promote this Student to 2nd Grade"
         data["whitelists"].remove(user_id)
         WOLVES.remove(user_id)
 
@@ -155,7 +155,7 @@ def addsupport(
         json.dump(data, outfile, indent=4)
 
     update.effective_message.reply_text(
-        rt + f"\n{user_member.first_name} was added as a Royal Blood!",
+        rt + f"\n{user_member.first_name} was added as a 2nd Grade!",
     )
 
     log_message = (
@@ -191,17 +191,17 @@ def addwhitelist(update: Update, context: CallbackContext) -> str:
         data = json.load(infile)
 
     if user_id in DRAGONS:
-        rt += "This member is a Titan Shifter, Demoting to Garrison."
+        rt += "This member is a 1st Grade, Demoting to Student."
         data["sudos"].remove(user_id)
         DRAGONS.remove(user_id)
 
     if user_id in DEMONS:
-        rt += "This user is already a Royal Blood, Demoting to Garrison."
+        rt += "This user is already a 2nd Grade, Demoting to Student."
         data["supports"].remove(user_id)
         DEMONS.remove(user_id)
 
     if user_id in WOLVES:
-        message.reply_text("This user is already a Garrison.")
+        message.reply_text("This user is already a Student.")
         return ""
 
     data["whitelists"].append(user_id)
@@ -211,7 +211,7 @@ def addwhitelist(update: Update, context: CallbackContext) -> str:
         json.dump(data, outfile, indent=4)
 
     update.effective_message.reply_text(
-        rt + f"\nSuccessfully promoted {user_member.first_name} to a Garrison!",
+        rt + f"\nSuccessfully promoted {user_member.first_name} to a Student!",
     )
 
     log_message = (
@@ -247,22 +247,22 @@ def addtiger(update: Update, context: CallbackContext) -> str:
         data = json.load(infile)
 
     if user_id in DRAGONS:
-        rt += "This member is a Titan Shifter, Demoting to Scout."
+        rt += "This member is a 1st Grade, Demoting to 3rd Grade."
         data["sudos"].remove(user_id)
         DRAGONS.remove(user_id)
 
     if user_id in DEMONS:
-        rt += "This user is already a Royal Blood, Demoting to Scout."
+        rt += "This user is already a 2nd Grade, Demoting to 3rd Grade."
         data["supports"].remove(user_id)
         DEMONS.remove(user_id)
 
     if user_id in WOLVES:
-        rt += "This user is already a Garrison, Demoting to No Acces.."
+        rt += "This user is already a Student, kicking him off Jujutsu Tech.."
         data["whitelists"].remove(user_id)
         WOLVES.remove(user_id)
 
     if user_id in TIGERS:
-        message.reply_text("This user is already a Scout.")
+        message.reply_text("This user is already a 3rd Grade.")
         return ""
 
     data["tigers"].append(user_id)
@@ -272,7 +272,7 @@ def addtiger(update: Update, context: CallbackContext) -> str:
         json.dump(data, outfile, indent=4)
 
     update.effective_message.reply_text(
-        rt + f"\nSuccessfully promoted {user_member.first_name} to a Scout!",
+        rt + f"\nSuccessfully promoted {user_member.first_name} to a 3rd Grade!",
     )
 
     log_message = (
@@ -307,7 +307,7 @@ def removesudo(update: Update, context: CallbackContext) -> str:
         data = json.load(infile)
 
     if user_id in DRAGONS:
-        message.reply_text("Requested the Ackermans to demote this user to Civilian")
+        message.reply_text("Requested the Jujutsu Tech to demote this user to Civilian")
         DRAGONS.remove(user_id)
         data["sudos"].remove(user_id)
 
@@ -326,7 +326,7 @@ def removesudo(update: Update, context: CallbackContext) -> str:
         return log_message
 
     else:
-        message.reply_text("This user is not a Titan Shifter!")
+        message.reply_text("This user is not a 1st Grade!")
         return ""
 
 
@@ -350,7 +350,7 @@ def removesupport(update: Update, context: CallbackContext) -> str:
         data = json.load(infile)
 
     if user_id in DEMONS:
-        message.reply_text("Requested the Ackermans to demote this user to Civilian")
+        message.reply_text("Requested the Jujutsu Tech to demote this user to Civilian")
         DEMONS.remove(user_id)
         data["supports"].remove(user_id)
 
@@ -369,7 +369,7 @@ def removesupport(update: Update, context: CallbackContext) -> str:
         return log_message
 
     else:
-        message.reply_text("This user is not a Royal Blood!")
+        message.reply_text("This user is not a 2nd Grade!")
         return ""
 
 
@@ -411,9 +411,7 @@ def removewhitelist(update: Update, context: CallbackContext) -> str:
 
         return log_message
     else:
-        message.reply_text("This user is not a Garrison!")
-        return ""
-
+        message.reply_text("This user is not a student!")
 
 @run_async
 @sudo_plus
@@ -453,14 +451,14 @@ def removetiger(update: Update, context: CallbackContext) -> str:
 
         return log_message
     else:
-        message.reply_text("This user is not a Scout!")
+        message.reply_text("This user is not a 3rd Grade!")
         return ""
 
 
 @run_async
 @whitelist_plus
 def whitelistlist(update: Update, context: CallbackContext):
-    reply = "<b>Known Garrisons♠️:</b>\n"
+    reply = "<b>Known Students♠️:</b>\n"
     m = update.effective_message.reply_text(
         "<code>Gathering intel..</code>", parse_mode=ParseMode.HTML,
     )
@@ -479,7 +477,7 @@ def whitelistlist(update: Update, context: CallbackContext):
 @run_async
 @whitelist_plus
 def tigerlist(update: Update, context: CallbackContext):
-    reply = "<b>Known Scouts🔰:</b>\n"
+    reply = "<b>Known 3rd Grade🔰:</b>\n"
     m = update.effective_message.reply_text(
         "<code>Gathering intel..</code>", parse_mode=ParseMode.HTML,
     )
@@ -501,7 +499,7 @@ def supportlist(update: Update, context: CallbackContext):
     m = update.effective_message.reply_text(
         "<code>Gathering intel..</code>", parse_mode=ParseMode.HTML,
     )
-    reply = "<b>Known Royal Bloods⭐:</b>\n"
+    reply = "<b>Known 2nd Grade⭐:</b>\n"
     for each_user in DEMONS:
         user_id = int(each_user)
         try:
@@ -520,7 +518,7 @@ def sudolist(update: Update, context: CallbackContext):
         "<code>Gathering intel..</code>", parse_mode=ParseMode.HTML,
     )
     true_sudo = list(set(DRAGONS) - set(DEV_USERS))
-    reply = "<b>Known Titan Shifters💥:</b>\n"
+    reply = "<b>Known 1st Grade💥:</b>\n"
     for each_user in true_sudo:
         user_id = int(each_user)
         try:
@@ -539,7 +537,7 @@ def devlist(update: Update, context: CallbackContext):
         "<code>Gathering intel..</code>", parse_mode=ParseMode.HTML,
     )
     true_dev = list(set(DEV_USERS) - {OWNER_ID})
-    reply = "<b>Ackerman Clan Members⚡️:</b>\n"
+    reply = "<b>Jujutsu Tech DEV⚡️:</b>\n"
     for each_user in true_dev:
         user_id = int(each_user)
         try:
