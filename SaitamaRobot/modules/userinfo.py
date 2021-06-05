@@ -287,22 +287,22 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Disaster level of this person is 'Founding Titan'."
+        text += "\n\nThe Man himself is 'Gojou Sataro'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of the 'Ackerman Clan'."
+        text += "\n\nThis user is member of the 'Jujutsu Tech'."
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'Titan Shifter'."
+        text += "\n\nThe Curse of this person is '1st Grade'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThe Disaster level of this person is 'Royal Blood'."
+        text += "\n\nThe curse of this person is '2nd Grade'."
         disaster_level_present = True 
     elif user.id in TIGERS:
-        text += "\n\nThe Disaster level of this person is 'Scout'."
+        text += "\n\nThe curse of this person is '3d Grade'."
         disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\nThe Disaster level of this person is 'Garrison'."
+        text += "\n\nThe curse of this person is 'Student'."
         disaster_level_present = True
 
     if disaster_level_present:
@@ -476,7 +476,7 @@ def set_about_bio(update: Update, context: CallbackContext):
 
         if user_id == bot.id and sender_id not in DEV_USERS:
             message.reply_text(
-                "Erm... yeah, I only trust the Ackermans to set my bio.",
+                "Erm... yeah, I only trust the Jujutsu Tech to set my bio.",
             )
             return
 
