@@ -86,7 +86,7 @@ Helpful commands:
 - /help: Sends this message; I'll tell you more about myself!
 - /donate: Gives you info on how to support me and my creator.
 
-If you want to report bugs or have any questions on how to use me then feel free to reach out: @GojoSataro_support.
+If you want to report bugs or have any questions on how to use me then feel free to reach out: [GojoSataroSupport](https://t.me/GojoSataro_support/)
 All commands can be used with the following: / !
 List of all the Modules:
 """.format(
