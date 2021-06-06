@@ -66,7 +66,7 @@ def warn(user: User,
             message.reply_text("Tigers cant be warned.")
         else:
             message.reply_text(
-                "Tiger triggered an auto warn filter!\n I can't warn tigers but they should avoid abusing this."
+                "3rd Grade triggered an auto warn filter!\n I can't warn 3rd Grades but they should avoid abusing this."
             )
         return
 
@@ -75,7 +75,7 @@ def warn(user: User,
             message.reply_text("Wolf disasters are warn immune.")
         else:
             message.reply_text(
-                "Wolf Disaster triggered an auto warn filter!\nI can't warn wolves but they should avoid abusing this."
+                "student triggered an auto warn filter!\nI can't warn students but they should avoid abusing this."
             )
         return
 
