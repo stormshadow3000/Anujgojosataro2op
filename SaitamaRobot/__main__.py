@@ -94,7 +94,7 @@ List of all the Modules:
     "" if not ALLOW_EXCL else "📝All commands can either be used with / or !.",
 )
 
-EREN_IMG = "https://telegra.ph/file/62197266268cb21fdcc47.jpg"
+EREN_IMG = "https://telegra.ph/file/3ed95497e75ec814d7c93.mp4"
 
 DONATE_STRING = """Plant a tree and give water to birds, that's your donation.."""
 
