@@ -232,7 +232,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="📋 Getting Started",
-                                url="https://t.me/foundingtitanupdates/4",
+                                url="https://t.me/GojoSataro_update/4",
                             ),
                             InlineKeyboardButton(
                                 text="🌐 Nexus Network™",
