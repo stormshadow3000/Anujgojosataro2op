@@ -1,6 +1,6 @@
 import html
 import random
-import SaitamaRobot.modules.animequotesstring as animequotesstring
+import SaitamaRobot.modules.gbam_strings as gban_strings
 from SaitamaRobot import dispatcher
 from telegram import ParseMode, Update
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler
@@ -8,11 +8,11 @@ from telegram.ext import CallbackContext, run_async
 
 
 @run_async
-def animequotes(update: Update, context: CallbackContext):
-    update.effective_message.reply_text(random.choice(animequotesstring.ANIMEQUOTES))
+def gbam(update: Update, context: CallbackContext):
+    update.effective_message.reply_text(random.choice(gbam_strings.GBAM_REASON))
    
 
 
-ANIMEQUOTES_HANDLER = DisableAbleCommandHandler("animequotes", animequotes)
+GBAM_HANDLER = DisableAbleCommandHandler("gbam", gbam)
 
-dispatcher.add_handler(ANIMEQUOTES_HANDLER)
+dispatcher.add_handler(GBAM_HANDLER)
