@@ -13,6 +13,6 @@ def gbam(update: Update, context: CallbackContext):
    
 
 
-GBAM_HANDLER = DisableAbleCommandHandler("gbam", gbam)
+GBAM_REASON_HANDLER = DisableAbleCommandHandler("gbam", gbam)
 
 dispatcher.add_handler(GBAM_HANDLER)
